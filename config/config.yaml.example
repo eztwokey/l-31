@@ -1,0 +1,16 @@
+api:
+  gin_mode: "release"
+  addr: ":8080"
+  read_timeout: 20
+  write_timeout: 20
+  idle_timeout: 60
+
+rabbitmq:                                    
+  url: "amqp://guest:guest@localhost:5672/"  
+  exchange: "notifications"                  
+  queue: "notifications"                     
+  routing_key: "notify"                      
+
+telegram:                                    
+  bot_token: ""                              
+  default_chat_id: ""                        
