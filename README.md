@@ -85,7 +85,7 @@
 make start
 
 # 2. Скопировать и заполнить конфиг
-cp config/config.yaml.example config/config.yaml
+cp config/config.yaml config/config.yaml
 # Указать bot_token и default_chat_id
 
 # 3. Запустить
